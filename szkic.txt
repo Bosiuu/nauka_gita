@@ -1,0 +1,17 @@
+Oto kroki, które należy wykonać, aby dodać pliki do repozytorium Git i wysłać je na zdalne repozytorium:
+
+1.Przejdź do katalogu, który zawiera pliki, które chcesz dodać do repozytorium.
+
+2.Uruchom Git Bash i wpisz komendę "git init" w celu utworzenia pustego repozytorium Git w bieżącym katalogu.
+
+3.Dodaj pliki, które chcesz umieścić w repozytorium, do obszaru staging, używając komendy "git add". Na przykład, aby dodać wszystkie pliki, użyj komendy "git add ."
+
+4.Potwierdź zmiany, wykonując komendę "git commit -m" razem z krótkim opisem zmian.
+
+5.Skonfiguruj zdalne repozytorium, używając komendy "git remote add <nazwa zdalnego repozytorium> <adres URL zdalnego repozytorium>".
+
+6.Wyślij zmiany na zdalne repozytorium za pomocą komendy "git push <nazwa zdalnego repozytorium> <branch>".
+
+7.Wprowadź swoje dane uwierzytelniające (nazwę użytkownika i hasło), aby zezwolić na wysyłanie zmian na zdalne repozytorium.
+
+8.Zmiany zostały przesłane na zdalne repozytorium i są teraz dostępne dla innych użytkowników.
